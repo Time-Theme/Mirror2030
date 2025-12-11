@@ -1,0 +1,59 @@
+{
+  "siteUrl": "https://mirror2030.com",
+  "siteName": "mirror2030",
+  "icpNumber": "琼ICP备2024046061号-3",
+  "contactEmail": "k@k.k",
+  "contactGithub": "https://github.com/",
+  "footerText": "拉取不再慢",
+  "footerLinks": {
+    "quickLinks": {
+      "home": {
+        "label": "镜像中心",
+        "url": "/index.html"
+      },
+      "guides": {
+        "label": "新手指南",
+        "url": "/guides/index.html"
+      },
+      "scripts": {
+        "label": "一键脚本",
+        "url": "/scripts/index.html"
+      }
+    },
+    "mirrors": {
+      "aliyun": {
+        "label": "阿里云",
+        "url": "https://developer.aliyun.com/mirror/"
+      },
+      "tencent": {
+        "label": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/"
+      },
+      "huawei": {
+        "label": "华为云",
+        "url": "https://mirrors.huaweicloud.com/"
+      },
+      "tsinghua": {
+        "label": "清华大学",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/"
+      }
+    },
+    "about": {
+      "intro": {
+        "label": "项目简介",
+        "url": "/about/index.html"
+      },
+      "feedback": {
+        "label": "反馈建议",
+        "url": "https://github.com//issues"
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/"
+      }
+    }
+  },
+  "enableAnalytics": false,
+  "analyticsId": "",
+  "generatedAt": "2025-10-24T03:38:44.750Z"
+}

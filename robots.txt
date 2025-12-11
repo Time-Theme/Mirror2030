@@ -1,0 +1,44 @@
+# robots.txt for 镜像加速站
+# 更新时间: 2024-01-15
+
+User-agent: *
+Allow: /
+Allow: /scripts/*.sh
+
+# 禁止爬取这些目录
+Disallow: /node_modules/
+Disallow: /*.json
+
+# 爬取速度限制（建议）
+Crawl-delay: 1
+
+# Sitemap 位置
+Sitemap: https://mirror2030.com/sitemap.xml
+
+# 常见搜索引擎特定规则
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: 360Spider
+Allow: /
+Crawl-delay: 2
+
+User-agent: Sogou web spider
+Allow: /
+Crawl-delay: 2
+
+# 禁止恶意爬虫
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /

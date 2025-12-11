@@ -1,0 +1,47 @@
+{
+  "name": "mirror-accelerator",
+  "version": "2.0.0",
+  "description": "中国镜像源一键配置工具 - 让下载快如闪电 | SEO优化 | CDN友好",
+  "main": "index.html",
+  "scripts": {
+    "setup": "node setup.js",
+    "scripts": "node generate-scripts-enhanced.js",
+    "static": "node generate-static.js",
+    "sitemap": "node generate-sitemap.js",
+    "build": "node build.js",
+    "verify": "node verify-static.js",
+    "dev": "python -m http.server 8000",
+    "preview": "cd dist && python -m http.server 8000",
+    "clean": "rm -rf dist scripts/*.sh scripts/*.json",
+    "deploy": "npm run build && echo 'Please upload dist/ to your server'"
+  },
+  "keywords": [
+    "mirror",
+    "china",
+    "npm",
+    "pip",
+    "apt",
+    "yum",
+    "docker",
+    "maven",
+    "go",
+    "composer",
+    "rubygems",
+    "homebrew",
+    "conda",
+    "nuget",
+    "加速",
+    "镜像源",
+    "国内镜像",
+    "CDN",
+    "SSG",
+    "SEO"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/mirror-site.git"
+  },
+  "homepage": "https://mirror.example.com"
+}
